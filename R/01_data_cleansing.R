@@ -6,7 +6,7 @@ rxDataStep(txt, xdf, overwrite = TRUE)
 head(xdf)
 rxGetVarInfo(xdf)
 
-# The first 190 variables are numerical and the last 40 are
+# The first 190 variables are numerical and the last 41 are
 # categorical
 factorCols <- paste("Var", 191:230, sep = "")
 xdfFactors <- RxXdfData("orange_factors.xdf")

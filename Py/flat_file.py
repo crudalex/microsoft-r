@@ -12,13 +12,12 @@ if not os.path.exists(datadir):
     print("Directory '%s' created." % datadir)
     os.listdir(datadir)
 
+# download file
 import ssl
 print(ssl.OPENSSL_VERSION)
-
 import urllib
 url = 'https://data.baltimorecity.gov/api/views/dz54-2aru/rows.csv?accessType=DOWNLOAD'
 urllib.request.urlretrieve(url=url, filename=csvfile)
-
 import datetime
 now = datetime.datetime.now()
 
@@ -33,3 +32,5 @@ cameraDF2.head(5)
 # read in excel file
 excelfile = os.path.join(datadir, 'cameras.xlsx')
 cameraDF3 = pd.read_excel(excelfile, sheet_name=0, header=0)
+
+
