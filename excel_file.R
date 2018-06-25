@@ -9,7 +9,8 @@ datafile = file.path(datadir, 'cameras.xlsx')
 list.files(datadir)
 
 install.packages('xlsx')
+install.packages('rJava')
 library(xlsx)
 
-cameraDF2 = read.xlsx(datafile, quote = '"')
+cameraDF2 = read.xlsx(datafile)
 head(cameraDF2)
