@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import io
 
 import requests
 import re
@@ -14,3 +15,17 @@ xpaths = {
     'section_time': '//*[@id="results"]/div[5]/div[2]/table/tbody/tr[4]/td[2]',
     'horse_jockey_trainer': '//*[@id="results"]/div[6]/table[2]' ,
 }
+
+workdir = os.getcwd()
+datadir = os.path.join(workdir, 'data', 'races')
+if not os.path.exists(datadir):
+    os.mkdir(datadir)
+
+html = os.listdir(datadir)[0]
+infile = os.path.join(datadir, html)
+
+text = ''
+with io.open(infile, 'r', encoding='utf8') as f:
+    text = f.read()
+
+text

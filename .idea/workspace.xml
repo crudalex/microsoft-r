@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e5094d-c765-4c76-81bf-9a0672d34df5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/scraper/get_race_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraper/get_race_html.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scraper/horse_racing_results.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraper/get_race.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraper/scrape_race.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraper/scrape_race.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,13 +20,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="get_race_html.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scraper/get_race_html.py">
+      <file leaf-file-name="horse_racing_results.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scraper/horse_racing_results.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+            <state relative-caret-position="375">
+              <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
               <folding>
-                <element signature="e#24#35#0" expanded="true" />
+                <element signature="e#24#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,6 +66,10 @@
         <option value="$PROJECT_DIR$/scraper/get_dates.py" />
         <option value="$PROJECT_DIR$/scraper/scrape_race_html.py" />
         <option value="$PROJECT_DIR$/scraper/get_race_html.py" />
+        <option value="$PROJECT_DIR$/scraper/scrape_race.py" />
+        <option value="$PROJECT_DIR$/scraper/get_race.py" />
+        <option value="$PROJECT_DIR$/scraper/horse_racing_results.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -90,6 +98,12 @@
               <item name="microsoft-r" type="b2602c69:ProjectViewProjectNode" />
               <item name="microsoft-r" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microsoft-r" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microsoft-r" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="racing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microsoft-r" type="b2602c69:ProjectViewProjectNode" />
@@ -150,7 +164,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scraper/get_race.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scraper/horse_racing_results.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,7 +252,21 @@
       <option name="project" value="LOCAL" />
       <updated>1530035004040</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Merge branch 'master' of github.com:crudalex/microsoft-r">
+      <created>1530080969645</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1530080969646</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merge branch 'master' of github.com:crudalex/microsoft-r">
+      <created>1530081049036</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1530081049036</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -256,15 +284,16 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32938644" />
       <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50106496" side_tool="true" visible="true" weight="0.32795697" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50159746" side_tool="true" weight="0.32795697" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946752" weight="0.2612903" />
-      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49946752" weight="0.32795697" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49893504" visible="true" weight="0.32795697" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49840257" weight="0.2172043" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" visible="true" weight="0.32795697" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" weight="0.32795697" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994618" visible="true" weight="0.3509052" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994618" visible="true" weight="0.3509052" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
       <window_info id="Structure" order="1" sideWeight="0.50053823" side_tool="true" weight="0.24920128" />
       <window_info id="Favorites" order="2" sideWeight="0.5014663" side_tool="true" weight="0.24920128" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39935413" />
@@ -274,7 +303,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32938644" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -290,22 +318,22 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scraper/get_race_html.py">
+    <entry file="file://$PROJECT_DIR$/scraper/horse_racing_results.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
           <folding>
-            <element signature="e#24#35#0" expanded="true" />
+            <element signature="e#24#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scraper/scrape_race_html.py">
+    <entry file="file://$PROJECT_DIR$/scraper/scrape_race.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="e#24#39#0" expanded="true" />
+            <element signature="e#23#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -362,7 +390,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$USER_HOME$/Python/venv34/lib/python3.4/site-packages/pika/adapters/blocking_connection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -432,22 +459,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/datarace_results/http_racing_hkjc_com_racing_info_meeting_results_english_local_20160903_st.html" />
-    <entry file="file://$PROJECT_DIR$/scraper/scrape_race_html.py">
+    <entry file="file://$PROJECT_DIR$/scraper/scrape_race.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
-            <element signature="e#24#39#0" expanded="true" />
+            <element signature="e#23#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scraper/get_race_html.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+        <state relative-caret-position="15">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraper/horse_racing_results.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
           <folding>
-            <element signature="e#24#35#0" expanded="true" />
+            <element signature="e#24#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
