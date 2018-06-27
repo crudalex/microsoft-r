@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-import time
 
+import time
+import io
 import requests
 
 url = 'http://racing.hkjc.com/racing/info/meeting/Results/English/'
@@ -29,7 +30,7 @@ for u in race_urls:
     html = requests.get(url).text
     filename = re.sub('\W+', '_', url.rstrip().lower()) + '.html'
     outfile = os.path.join(datadir, filename)
-    with open(outfile, 'w', encoding='utf8') as out:
+    with io.open(outfile, 'w', encoding='utf8') as out:
         out.write(html)
 end_time = time.time()
 print("Single threaded time: %s" % str(end_time - start_time))
@@ -39,16 +40,18 @@ def grab_url(url):
     html = requests.get(url).text
     filename = re.sub('\W+', '_', url.rstrip().lower()) + '.html'
     outfile = os.path.join(datadir, filename)
-    with open(outfile, 'w', encoding='utf8') as out:
+    with io.open(outfile, 'w', encoding='utf8') as out:
         out.write(html)
 
 
-from multiprocessing.dummy import Pool as ThreadPool
-#from multiprocessing import Pool as ThreadPool
+#from multiprocessing.dummy import Pool as ThreadPool
+from multiprocessing import Pool as ThreadPool
+import multiprocessing 
 
-pool = ThreadPool(8)
+cpus = multiprocessing.cpu_count()
+pool = ThreadPool(cpus)
 start_time = time.time()
-pool.map(grab_url, race_urls)
+pool.map_async(grab_url, race_urls)
 pool.close()
 pool.join()
 end_time = time.time()
