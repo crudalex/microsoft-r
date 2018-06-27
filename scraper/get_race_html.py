@@ -25,15 +25,15 @@ datadir = os.path.join(workdir, 'data', 'races')
 if not os.path.exists(datadir):
     os.mkdir(datadir)
 
-start_time = time.time()
-for u in race_urls:
-    html = requests.get(url).text
-    filename = re.sub('\W+', '_', url.rstrip().lower()) + '.html'
-    outfile = os.path.join(datadir, filename)
-    with io.open(outfile, 'w', encoding='utf8') as out:
-        out.write(html)
-end_time = time.time()
-print("Single threaded time: %s" % str(end_time - start_time))
+# start_time = time.time()
+# for u in race_urls:
+#     html = requests.get(url).text.replace('\r\n', '\n')
+#     filename = re.sub('\W+', '_', url.rstrip().lower()) + '.html'
+#     outfile = os.path.join(datadir, filename)
+#     with io.open(outfile, 'w', encoding='utf8') as out:
+#         out.write(html)
+# end_time = time.time()
+# print("Single threaded time: %s" % str(end_time - start_time))
 
 
 def grab_url(url):
@@ -51,7 +51,7 @@ import multiprocessing
 cpus = multiprocessing.cpu_count()
 pool = ThreadPool(cpus)
 start_time = time.time()
-pool.map_async(grab_url, race_urls)
+pool.map(grab_url, race_urls)
 pool.close()
 pool.join()
 end_time = time.time()
