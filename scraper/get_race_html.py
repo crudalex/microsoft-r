@@ -37,7 +37,7 @@ print("Single threaded time: %s" % str(end_time - start_time))
 
 
 def grab_url(url):
-    html = requests.get(url).text
+    html = requests.get(url).text.replace('\r\n', '\n')
     filename = re.sub('\W+', '_', url.rstrip().lower()) + '.html'
     outfile = os.path.join(datadir, filename)
     with io.open(outfile, 'w', encoding='utf8') as out:
