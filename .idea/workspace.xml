@@ -4,12 +4,20 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12e5094d-c765-4c76-81bf-9a0672d34df5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/py/get_race_dates.py" afterDir="false" />
+    <list default="true" id="12e5094d-c765-4c76-81bf-9a0672d34df5" name="Default" comment="Merge branch 'master' of github.com:crudalex/microsoft-r">
+      <change afterPath="$PROJECT_DIR$/hello2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/citi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/citi10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/dji.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/results.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/testing2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rlang/hello.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/microsoft-r.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/microsoft-r.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraper/horse_racing_results.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraper/scrape_race.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/scrape_race.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraper/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/testing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/testing.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/testing.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,26 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="get_race_dates.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/py/get_race_dates.py">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-              <folding>
-                <element signature="e#23#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scrape_race.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/py/scrape_race.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" selection-end-line="31" />
-              <folding>
-                <element signature="e#23#32#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -52,6 +45,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
     </option>
@@ -60,6 +54,14 @@
     <findStrings>
       <find>url</find>
       <find>to_sql</find>
+      <find>normal</find>
+      <find>for</find>
+      <find>1.0</find>
+      <find>diff</find>
+      <find>time</find>
+      <find>encode</find>
+      <find>encod</find>
+      <find>html</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -84,16 +86,42 @@
         <option value="$PROJECT_DIR$/scraper/get_race_html.py" />
         <option value="$PROJECT_DIR$/scraper/scrape_race.py" />
         <option value="$PROJECT_DIR$/scraper/get_race.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/scraper/horse_racing_results.py" />
+        <option value="$PROJECT_DIR$/py/testing.py" />
+        <option value="$PROJECT_DIR$/py/testing2.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/hello.txt" />
+        <option value="$PROJECT_DIR$/rlang/hello.txt" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/hello2.txt" />
+        <option value="$PROJECT_DIR$/hello2.txt" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_6.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_8.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_9.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_10.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_11.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_12.py" />
+        <option value="$PROJECT_DIR$/py/djidf.py" />
+        <option value="$PROJECT_DIR$/data/citi.csv" />
+        <option value="$PROJECT_DIR$/py/dji.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+        <option value="$PROJECT_DIR$/py/citi.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py" />
+        <option value="$PROJECT_DIR$/testing.ipynb" />
+        <option value="$PROJECT_DIR$/py/results.py" />
+        <option value="$PROJECT_DIR$/data/citi10.csv" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py" />
+        <option value="$PROJECT_DIR$/py/citi10.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="532" />
-    <option name="y" value="73" />
-    <option name="width" value="1920" />
-    <option name="height" value="1027" />
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -118,23 +146,7 @@
             <path>
               <item name="microsoft-r" type="b2602c69:ProjectViewProjectNode" />
               <item name="microsoft-r" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="racing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microsoft-r" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microsoft-r" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="sqlite3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microsoft-r" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microsoft-r" type="462c0819:PsiDirectoryNode" />
               <item name="py" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microsoft-r" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -144,16 +156,29 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/atwlam/PycharmProjects/microsoft-r/py/testing2.py" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="microsoft-r" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="microsoft-r" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ansible" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\atwlam\PycharmProjects\microsoft-r\py" />
+      <recent name="C:\Users\atwlam\PycharmProjects\microsoft-r" />
       <recent name="$PROJECT_DIR$/scraper" />
       <recent name="$PROJECT_DIR$/Py" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ansible" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -168,8 +193,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="horse_racing_results" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.citi10">
+    <configuration name="microsoft-r" type="JupiterNotebook" factoryName="Jupyter Notebook">
+      <module name="microsoft-r" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="additionalOptions" value="" />
+      <option name="ipnbHost" value="127.0.0.1" />
+      <option name="ipnbPort" value="8888" />
+    </configuration>
+    <configuration name="citi10" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="microsoft-r" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,15 +222,39 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/get_race_dates.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/py/citi10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="scratch_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="microsoft-r" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\atwlam\AppData\Local\Continuum\anaconda3\envs\microsoft-r\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Jupyter Notebook.microsoft-r" />
+      <item itemvalue="Python.citi10" />
+      <item itemvalue="Python.scratch_3" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.horse_racing_results" />
+        <item itemvalue="Python.citi10" />
+        <item itemvalue="Python.scratch_3" />
       </list>
     </recent_temporary>
   </component>
@@ -294,32 +359,58 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1027" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49840596" visible="true" weight="0.27083334" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32938644" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50159746" side_tool="true" weight="0.32795697" />
-      <window_info anchor="right" x="0" y="0" width="430" height="827" id="Documentation" side_tool="true" visible="true" weight="0.25079873" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946752" weight="0.26021504" />
-      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49840257" weight="0.3451613" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" visible="true" weight="0.32795697" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946752" weight="0.32795697" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994618" visible="true" weight="0.3509052" />
-      <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.32903227" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5014641" side_tool="true" weight="0.32750398" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" weight="0.26021504" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49840257" weight="0.3672496" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" weight="0.5071542" />
       <window_info id="Structure" order="1" sideWeight="0.50053823" side_tool="true" weight="0.24920128" />
-      <window_info id="Favorites" order="2" sideWeight="0.5014663" side_tool="true" weight="0.24920128" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935413" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49853587" weight="0.61424017" />
+      <window_info id="Favorites" order="2" sideWeight="0.50159407" side_tool="true" visible="true" weight="0.27083334" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3985122" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32750398" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" x="0" y="0" width="430" height="827" id="Documentation" order="3" side_tool="true" visible="true" weight="0.25079873" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32750398" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840257" visible="true" weight="0.5071542" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994618" visible="true" weight="0.27086383" />
+      <window_info id="Structure" order="1" sideWeight="0.50053823" side_tool="true" weight="0.24920128" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32938644" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32750398" />
+      <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-    </layout>
+      <window_info anchor="right" x="0" y="0" width="430" height="827" id="Documentation" order="5" side_tool="true" visible="true" weight="0.25079873" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3985122" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49853587" weight="0.61424017" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5014641" side_tool="true" weight="0.32750398" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" weight="0.26021504" />
+      <window_info id="Favorites" order="2" sideWeight="0.5014663" side_tool="true" weight="0.24920128" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32750398" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49840257" weight="0.3672496" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -330,54 +421,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/py/get_race_dates.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-          <folding>
-            <element signature="e#23#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/scrape_race.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#23#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/flat_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/testing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/send.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/py/receive.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -406,23 +453,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Python/venv34/lib/python3.4/site-packages/pika/adapters/blocking_connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="481" selection-start-line="481" selection-end-line="481" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/py/testing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Python/venv34/lib/python3.4/site-packages/pika/adapters/blocking_connection.py" />
     <entry file="file://$PROJECT_DIR$/rlang/Ex3-Task2.R">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -475,30 +506,157 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/datarace_results/http_racing_hkjc_com_racing_info_meeting_results_english_local_20160903_st.html" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/py/get_race_dates.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        <state relative-caret-position="476">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/py/scrape_race.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-end-line="31" />
+        <state relative-caret-position="111">
+          <caret line="8" column="71" lean-forward="true" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/testing2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="23" lean-forward="true" selection-start-line="18" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/hello.txt" />
+    <entry file="file://$PROJECT_DIR$/rlang/hello.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" lean-forward="true" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/hello2.txt" />
+    <entry file="file://$PROJECT_DIR$/hello2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_5.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_6.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_8.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_9.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/envs/microsoft-r/Lib/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6018">
+          <caret line="356" selection-start-line="356" selection-end-line="356" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_10.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_11.py" />
+    <entry file="file://$PROJECT_DIR$/data/djidf.csv" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_12.py" />
+    <entry file="file://$PROJECT_DIR$/data/citi.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/dji.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/results.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/citi10.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/dji.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="17" column="59" lean-forward="true" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/citi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/citi10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-end-line="9" />
           <folding>
-            <element signature="e#23#32#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/py/get_race_dates.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+        <state>
+          <caret selection-end-line="15" />
           <folding>
-            <element signature="e#23#38#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>

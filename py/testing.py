@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
 import math
-from urllib import request
 import re
+import requests
 
 num = math.sqrt(16)
-num
 
 string = 'xxxx x x xxx x askldcfaslc x x x x xxx dsaflasd lksdfsa x daskjfl sdakljad sfxvlzcj'
 
@@ -29,13 +28,31 @@ if m:
     m.group(1)
     m.group(2)
 
-s = re.sub('(.*)@gmail.com','atwlam@gmail.com', email )
+s = re.sub('(.*)@gmail.com', 'atwlam@gmail.com', email)
 print(s)
 
+url = 'https://cn.bing.com/search'
+kw = {'q': 'hello world'}
+r = requests.post(url, params=kw)
 
-import requests
-url = 'http://racing.hkjc.com/racing/info/meeting/Results/English/'
-r = requests.get(url)
-r.content
-r.text
+print(r.content)
+print(r.text)
+print(r.url)
 
+import json
+
+url = 'https://www.apple.com/hk/shop/updateSummary?node=home/shop_iphone/family/iphone_x&step=select&product=MQA82ZP%2FA&carrierPolicyType=UNLOCKED'
+j = requests.get(url).text
+
+v = json.load(j)
+
+a = ['alex', 'lam']
+d = ['daniel', 'cheung']
+k = ['kc', 'tam']
+s = ['sai', 'li']
+l = ['alex', 'lam']
+
+
+e = [ a, d, k, s, l]
+
+set(e)
