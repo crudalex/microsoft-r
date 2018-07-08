@@ -150,8 +150,6 @@ class StockFrame(wx.Frame):
             wx.MessageBox('Download failed.', 'Message', wx.OK | wx.ICON_INFORMATION)
 
 
-
-
 if __name__ == '__main__':
     app = wx.App(False)
     top = StockFrame("Dow Jones Industrial Average (^DJI)")
