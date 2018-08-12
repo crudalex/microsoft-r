@@ -38,8 +38,6 @@ class Solution:
 if __name__ == '__main__':
     n = [3, 9, 20, None, None, 15, 7]
 
-    from lib.struct import TreeNode
-
     root = TreeNode(n.pop(0))
     for i in n:
         root.insert(i)
