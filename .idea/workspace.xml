@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12e5094d-c765-4c76-81bf-9a0672d34df5" name="Default" comment="Merge branch 'master' of github.com:crudalex/microsoft-r">
-      <change afterPath="$PROJECT_DIR$/leetcode/LRUCache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/addBinary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/addTwoNumbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/addTwoNumbers2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/countPalindromicSubsequences.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/getMaxRepetitions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/multiplyStrings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/plusOne.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/projectionArea.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LRUCache.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetcode/LRUCache.py">
+      <file leaf-file-name="projectionArea.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/projectionArea.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="105">
+              <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -58,6 +65,7 @@
       <find />
       <find>ID_EVENT_REFRESH</find>
       <find>b</find>
+      <find>j</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -70,14 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/testing.ipynb" />
-        <option value="$PROJECT_DIR$/py/results.py" />
-        <option value="$PROJECT_DIR$/data/citi10.csv" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py" />
-        <option value="$PROJECT_DIR$/py/citi10.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/multi.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_6.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_8.py" />
@@ -121,6 +121,14 @@
         <option value="$PROJECT_DIR$/leetcode/numberToWords.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/leetcode/LRUCache.py" />
+        <option value="$PROJECT_DIR$/leetcode/getMaxRepetitions.py" />
+        <option value="$PROJECT_DIR$/leetcode/RotatedDigits.py" />
+        <option value="$PROJECT_DIR$/leetcode/addTwoNumbers.py" />
+        <option value="$PROJECT_DIR$/leetcode/multiplyStrings.py" />
+        <option value="$PROJECT_DIR$/leetcode/plusOne.py" />
+        <option value="$PROJECT_DIR$/leetcode/addBinary.py" />
+        <option value="$PROJECT_DIR$/leetcode/countPalindromicSubsequences.py" />
+        <option value="$PROJECT_DIR$/leetcode/projectionArea.py" />
       </list>
     </option>
   </component>
@@ -198,8 +206,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LRUCache">
-    <configuration name="LRUCache" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.projectionArea">
+    <configuration name="addBinary" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="microsoft-r" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -211,13 +219,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/LRUCache.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/addBinary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="consecutiveNumbersSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="countPalindromicSubsequences" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="microsoft-r" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -229,13 +237,31 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/consecutiveNumbersSum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/countPalindromicSubsequences.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="multiplyStrings" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="microsoft-r" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/multiplyStrings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="minDepth" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="plusOne" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="microsoft-r" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -247,13 +273,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/minDepth.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/plusOne.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="numberToWords" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="projectionArea" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="microsoft-r" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -265,44 +291,26 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/numberToWords.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="two_sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="microsoft-r" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/two_sum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/projectionArea.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.numberToWords" />
-      <item itemvalue="Python.minDepth" />
-      <item itemvalue="Python.two_sum" />
-      <item itemvalue="Python.consecutiveNumbersSum" />
-      <item itemvalue="Python.LRUCache" />
+      <item itemvalue="Python.multiplyStrings" />
+      <item itemvalue="Python.plusOne" />
+      <item itemvalue="Python.addBinary" />
+      <item itemvalue="Python.countPalindromicSubsequences" />
+      <item itemvalue="Python.projectionArea" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.LRUCache" />
-        <item itemvalue="Python.consecutiveNumbersSum" />
-        <item itemvalue="Python.two_sum" />
-        <item itemvalue="Python.minDepth" />
-        <item itemvalue="Python.numberToWords" />
+        <item itemvalue="Python.projectionArea" />
+        <item itemvalue="Python.countPalindromicSubsequences" />
+        <item itemvalue="Python.addBinary" />
+        <item itemvalue="Python.multiplyStrings" />
+        <item itemvalue="Python.plusOne" />
       </list>
     </recent_temporary>
   </component>
@@ -408,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531074082992</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Merge branch 'master' of github.com:crudalex/microsoft-r">
+      <created>1534171442604</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1534171442604</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -422,10 +437,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32938644" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50319487" side_tool="true" weight="0.3451613" />
+      <window_info anchor="right" x="0" y="0" width="430" height="827" id="Documentation" order="7" side_tool="true" weight="0.25079873" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946752" weight="0.25913978" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.4968051" weight="0.3451613" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4978701" visible="true" weight="0.5591398" />
@@ -433,7 +450,8 @@
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994618" visible="true" weight="0.17252396" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Graphics" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32598424" />
       <window_info id="Structure" order="1" sideWeight="0.50053823" side_tool="true" weight="0.24920128" />
       <window_info id="Favorites" order="2" sideWeight="0.5014663" side_tool="true" weight="0.24920128" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892474" />
@@ -446,18 +464,16 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290938" />
-      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" weight="0.33543307" />
       <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32750398" />
-      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.51338583" />
-      <window_info anchor="right" x="0" y="0" width="430" height="827" id="Documentation" order="3" side_tool="true" visible="true" weight="0.25079873" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5014641" side_tool="true" weight="0.32750398" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5021521" side_tool="true" weight="0.3109375" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32598424" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49840257" weight="0.41259843" />
     </layout>
@@ -510,20 +526,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hello2.txt" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py" />
-    <entry file="file://$PROJECT_DIR$/py/multi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.py" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_5.py" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_6.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/envs/microsoft-r/Lib/site-packages/sklearn/svm/base.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/envs/microsoft-r/Lib/site-packages/sklearn/utils/validation.py" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_8.py" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_9.py" />
@@ -596,45 +598,10 @@
     <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/envs/microsoft-r/Lib/codecs.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/envs/microsoft-r/Lib/ntpath.py" />
     <entry file="file://$PROJECT_DIR$/lib/struct.py" />
-    <entry file="file://$PROJECT_DIR$/leetcode/RotatedDigits.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="9" column="47" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/replaceWords.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/numberToWords.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/two_sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" lean-forward="true" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/consecutiveNumbersSum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
@@ -645,6 +612,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/LRUCache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="44" lean-forward="true" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/RotatedDigits.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/minDepth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -652,10 +636,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/LRUCache.py">
+    <entry file="file://$PROJECT_DIR$/leetcode/getMaxRepetitions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/consecutiveNumbersSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/numberToWords.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/replaceWords.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/addTwoNumbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/addTwoNumbers2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="18" lean-forward="true" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/multiplyStrings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/plusOne.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="26" lean-forward="true" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/addBinary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/countPalindromicSubsequences.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/projectionArea.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
