@@ -4,9 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12e5094d-c765-4c76-81bf-9a0672d34df5" name="Default" comment="Merge branch 'master' of github.com:crudalex/microsoft-r">
-      <change afterPath="$PROJECT_DIR$/leetcode/HouseRobber.py" afterDir="false" />
+    <list default="true" id="12e5094d-c765-4c76-81bf-9a0672d34df5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discrete-optimization/anyint/solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/discrete-optimization/anyint/solver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/HouseRobber.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/HouseRobber.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +24,8 @@
       <file leaf-file-name="HouseRobber.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/leetcode/HouseRobber.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="680">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -71,7 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_7.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_8.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_10.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_11.py" />
@@ -121,13 +121,14 @@
         <option value="$PROJECT_DIR$/leetcode/addBinary.py" />
         <option value="$PROJECT_DIR$/leetcode/countPalindromicSubsequences.py" />
         <option value="$PROJECT_DIR$/leetcode/projectionArea.py" />
+        <option value="$PROJECT_DIR$/discrete-optimization/anyint/solver.py" />
         <option value="$PROJECT_DIR$/leetcode/HouseRobber.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="496" />
-    <option name="y" value="232" />
+    <option name="x" value="497" />
+    <option name="y" value="237" />
     <option name="width" value="1405" />
     <option name="height" value="903" />
   </component>
@@ -150,7 +151,13 @@
             <path>
               <item name="microsoft-r" type="b2602c69:ProjectViewProjectNode" />
               <item name="microsoft-r" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="discrete-optimization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microsoft-r" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microsoft-r" type="462c0819:PsiDirectoryNode" />
+              <item name="discrete-optimization" type="462c0819:PsiDirectoryNode" />
+              <item name="anyint" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,24 +222,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/HouseRobber.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="addBinary" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="microsoft-r" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/addBinary.py" />
-      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -255,24 +244,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="multiplyStrings" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="microsoft-r" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/multiplyStrings.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="projectionArea" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="microsoft-r" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -291,20 +262,56 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="solver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="microsoft-r" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/discrete-optimization/anyint" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/discrete-optimization/anyint/solver.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="submit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="microsoft-r" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/discrete-optimization/anyint" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/discrete-optimization/anyint/submit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.multiplyStrings" />
-      <item itemvalue="Python.addBinary" />
       <item itemvalue="Python.countPalindromicSubsequences" />
       <item itemvalue="Python.projectionArea" />
       <item itemvalue="Python.HouseRobber" />
+      <item itemvalue="Python.solver" />
+      <item itemvalue="Python.submit" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.HouseRobber" />
+        <item itemvalue="Python.submit" />
+        <item itemvalue="Python.solver" />
         <item itemvalue="Python.projectionArea" />
         <item itemvalue="Python.countPalindromicSubsequences" />
-        <item itemvalue="Python.addBinary" />
-        <item itemvalue="Python.multiplyStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -417,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534171442604</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Merge branch 'master' of github.com:crudalex/microsoft-r">
+      <created>1534222940335</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1534222940335</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -430,7 +444,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="397" y="186" width="1124" height="722" extended-state="0" />
+    <frame x="398" y="190" width="1124" height="722" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978479" visible="true" weight="0.22162162" />
@@ -438,12 +452,12 @@
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5014641" side_tool="true" weight="0.32750398" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" weight="0.24794745" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49840257" weight="0.5337001" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840257" visible="true" weight="0.5763547" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49840257" weight="0.5336617" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840257" visible="true" weight="0.42528737" />
       <window_info id="Structure" order="1" sideWeight="0.50053823" side_tool="true" weight="0.24920128" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49853587" weight="0.2861073" />
       <window_info id="Favorites" order="2" sideWeight="0.5021521" side_tool="true" weight="0.3109375" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39752406" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39489672" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" visible="true" weight="0.25826773" />
@@ -513,12 +527,10 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="31" />
+      <option name="time" value="36" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_8.py" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_9.py" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_10.py" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_11.py" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_12.py" />
@@ -703,10 +715,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/discrete-optimization/anyint/solver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discrete-optimization/anyint/submit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/HouseRobber.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="680">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
