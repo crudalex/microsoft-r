@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12e5094d-c765-4c76-81bf-9a0672d34df5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/leetcode/Accepted/AddStrings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/NumberOfDigitOne.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/SumOfTwoIntegers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discrete-optimization/anyint/solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/discrete-optimization/anyint/solver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/HouseRobber.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/HouseRobber.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/addBinary.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/Accepted/addBinary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/addTwoNumbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/Accepted/addTwoNumbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/addTwoNumbers2.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/Accepted/addTwoNumbers2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/consecutiveNumbersSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/consecutiveNumbersSum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +26,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HouseRobber.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetcode/HouseRobber.py">
+      <file leaf-file-name="projectionArea.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/projectionArea.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="336">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SumOfTwoIntegers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/SumOfTwoIntegers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddStrings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/Accepted/AddStrings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" lean-forward="true" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumberOfDigitOne.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/NumberOfDigitOne.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addBinary.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/Accepted/addBinary.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addTwoNumbers.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/Accepted/addTwoNumbers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addTwoNumbers2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/Accepted/addTwoNumbers2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="18" lean-forward="true" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="consecutiveNumbersSum.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/consecutiveNumbersSum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -72,9 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_8.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_10.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_11.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_9.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_12.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/movie.py" />
@@ -109,7 +174,6 @@
         <option value="$PROJECT_DIR$/leetcode/minDepth.py" />
         <option value="$PROJECT_DIR$/leetcode/diameterOfBinaryTree.py" />
         <option value="$PROJECT_DIR$/leetcode/replaceWords.py" />
-        <option value="$PROJECT_DIR$/leetcode/consecutiveNumbersSum.py" />
         <option value="$PROJECT_DIR$/leetcode/numberToWords.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/leetcode/LRUCache.py" />
@@ -123,6 +187,10 @@
         <option value="$PROJECT_DIR$/leetcode/projectionArea.py" />
         <option value="$PROJECT_DIR$/discrete-optimization/anyint/solver.py" />
         <option value="$PROJECT_DIR$/leetcode/HouseRobber.py" />
+        <option value="$PROJECT_DIR$/leetcode/SumOfTwoIntegers.py" />
+        <option value="$PROJECT_DIR$/leetcode/AddStrings.py" />
+        <option value="$PROJECT_DIR$/leetcode/NumberOfDigitOne.py" />
+        <option value="$PROJECT_DIR$/leetcode/consecutiveNumbersSum.py" />
       </list>
     </option>
   </component>
@@ -140,7 +208,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,18 +218,13 @@
             <path>
               <item name="microsoft-r" type="b2602c69:ProjectViewProjectNode" />
               <item name="microsoft-r" type="462c0819:PsiDirectoryNode" />
-              <item name="discrete-optimization" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microsoft-r" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microsoft-r" type="462c0819:PsiDirectoryNode" />
-              <item name="discrete-optimization" type="462c0819:PsiDirectoryNode" />
-              <item name="anyint" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,18 +243,18 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/leetcode/Accepted" />
+      <recent name="C:\Users\atwlam\PycharmProjects\microsoft-r" />
+      <recent name="C:\Users\atwlam\PycharmProjects\microsoft-r\leetcode\lib" />
+      <recent name="C:\Users\atwlam\PycharmProjects\microsoft-r\leetcode" />
+      <recent name="C:\Users\atwlam\PycharmProjects\microsoft-r\py" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\atwlam\PycharmProjects\microsoft-r\py" />
       <recent name="C:\Users\atwlam\PycharmProjects\microsoft-r" />
       <recent name="$PROJECT_DIR$/scraper" />
       <recent name="$PROJECT_DIR$/Py" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\atwlam\PycharmProjects\microsoft-r" />
-      <recent name="C:\Users\atwlam\PycharmProjects\microsoft-r\leetcode\lib" />
-      <recent name="C:\Users\atwlam\PycharmProjects\microsoft-r\leetcode" />
-      <recent name="C:\Users\atwlam\PycharmProjects\microsoft-r\py" />
-      <recent name="$PROJECT_DIR$/ansible" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -207,7 +269,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.HouseRobber">
+  <component name="RunManager" selected="Python.consecutiveNumbersSum">
+    <configuration name="AddStrings" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="microsoft-r" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/Accepted/AddStrings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="HouseRobber" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="microsoft-r" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,7 +306,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="countPalindromicSubsequences" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SumOfTwoIntegers" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="microsoft-r" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -238,13 +318,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/countPalindromicSubsequences.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/Accepted/SumOfTwoIntegers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="projectionArea" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="consecutiveNumbersSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="microsoft-r" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -256,25 +336,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/projectionArea.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="solver" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="microsoft-r" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/discrete-optimization/anyint" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/discrete-optimization/anyint/solver.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode/consecutiveNumbersSum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,19 +361,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.countPalindromicSubsequences" />
-      <item itemvalue="Python.projectionArea" />
       <item itemvalue="Python.HouseRobber" />
-      <item itemvalue="Python.solver" />
       <item itemvalue="Python.submit" />
+      <item itemvalue="Python.SumOfTwoIntegers" />
+      <item itemvalue="Python.AddStrings" />
+      <item itemvalue="Python.consecutiveNumbersSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.consecutiveNumbersSum" />
+        <item itemvalue="Python.AddStrings" />
+        <item itemvalue="Python.SumOfTwoIntegers" />
         <item itemvalue="Python.HouseRobber" />
         <item itemvalue="Python.submit" />
-        <item itemvalue="Python.solver" />
-        <item itemvalue="Python.projectionArea" />
-        <item itemvalue="Python.countPalindromicSubsequences" />
       </list>
     </recent_temporary>
   </component>
@@ -444,49 +506,52 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="398" y="190" width="1124" height="722" extended-state="0" />
+    <frame x="0" y="22" width="1920" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978479" visible="true" weight="0.22162162" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32938644" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290938" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5014641" side_tool="true" weight="0.32750398" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" weight="0.24794745" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49840257" weight="0.5336617" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840257" visible="true" weight="0.42528737" />
-      <window_info id="Structure" order="1" sideWeight="0.50053823" side_tool="true" weight="0.24920128" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49853587" weight="0.2861073" />
-      <window_info id="Favorites" order="2" sideWeight="0.5021521" side_tool="true" weight="0.3109375" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39489672" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840257" visible="true" weight="0.3344086" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" weight="0.2924731" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49840257" weight="0.41182795" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49853587" weight="0.27217126" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978479" visible="true" weight="0.22310969" />
+      <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" visible="true" weight="0.25826773" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info id="Structure" order="1" sideWeight="0.50053823" side_tool="true" weight="0.24920128" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5129032" />
+      <window_info id="Favorites" order="2" sideWeight="0.5021521" side_tool="true" weight="0.3109375" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978479" visible="true" weight="0.22108346" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32750398" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49853587" weight="0.27217126" />
       <window_info id="Structure" order="1" sideWeight="0.50053823" side_tool="true" weight="0.24920128" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290938" />
-      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" visible="true" weight="0.25826773" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" weight="0.33543307" />
-      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32750398" />
       <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.51338583" />
+      <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" x="0" y="0" width="430" height="827" id="Documentation" order="7" side_tool="true" weight="0.25079873" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.51338583" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5014641" side_tool="true" weight="0.32750398" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5021521" side_tool="true" weight="0.3109375" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32598424" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49853587" weight="0.27217126" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49840257" weight="0.41259843" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" weight="0.26021504" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840257" visible="true" weight="0.5071542" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994618" visible="true" weight="0.27086383" />
       <window_info id="Structure" order="1" sideWeight="0.50053823" side_tool="true" weight="0.24920128" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -495,17 +560,17 @@
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32750398" />
       <window_info anchor="right" id="R Packages" order="4" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49840257" weight="0.3672496" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" x="0" y="0" width="430" height="827" id="Documentation" order="5" side_tool="true" visible="true" weight="0.25079873" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3985122" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49853587" weight="0.61424017" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5014641" side_tool="true" weight="0.32750398" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" weight="0.26021504" />
-      <window_info id="Favorites" order="2" sideWeight="0.5014663" side_tool="true" weight="0.24920128" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32750398" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49840257" weight="0.3672496" />
+      <window_info id="Favorites" order="2" sideWeight="0.5014663" side_tool="true" weight="0.24920128" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -527,13 +592,10 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="36" />
+      <option name="time" value="37" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_10.py" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_11.py" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_12.py" />
     <entry file="file://$PROJECT_DIR$/py/movie.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -645,13 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/consecutiveNumbersSum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/numberToWords.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -663,20 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
           <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/addTwoNumbers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/addTwoNumbers2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="18" lean-forward="true" selection-end-line="52" />
         </state>
       </provider>
     </entry>
@@ -694,13 +735,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/addBinary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/countPalindromicSubsequences.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -710,8 +744,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/projectionArea.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="336">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -733,6 +767,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/SumOfTwoIntegers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/NumberOfDigitOne.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/Accepted/addBinary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/Accepted/AddStrings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" lean-forward="true" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/Accepted/addTwoNumbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/Accepted/addTwoNumbers2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="18" lean-forward="true" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/consecutiveNumbersSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
         </state>
       </provider>
     </entry>
