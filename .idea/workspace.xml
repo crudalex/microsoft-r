@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12e5094d-c765-4c76-81bf-9a0672d34df5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/LFUCache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="LFUCache.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/LFUCache.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="94">
+              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -70,7 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_9.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_12.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/movie.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_13.py" />
@@ -121,14 +121,15 @@
         <option value="$PROJECT_DIR$/leetcode/NumberOfDigitOne.py" />
         <option value="$PROJECT_DIR$/leetcode/consecutiveNumbersSum.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/leetcode/LFUCache.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="497" />
-    <option name="y" value="237" />
+    <option name="x" value="496" />
+    <option name="y" value="236" />
     <option name="width" value="1405" />
-    <option name="height" value="903" />
+    <option name="height" value="904" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -138,6 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,7 +156,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -443,52 +444,49 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1027" extended-state="6" />
+    <frame x="398" y="190" width="1124" height="722" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3290938" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978479" visible="true" weight="0.30810812" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32938644" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5014641" side_tool="true" weight="0.32750398" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" visible="true" weight="0.3344086" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" weight="0.2924731" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49840257" weight="0.41182795" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49853587" weight="0.27217126" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978479" visible="true" weight="0.22310969" />
-      <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" x="0" y="0" width="337" height="736" id="Documentation" order="5" side_tool="true" weight="0.34684685" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" weight="0.24787363" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49840257" visible="true" weight="0.4597701" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" weight="0.3147023" />
       <window_info id="Structure" order="1" sideWeight="0.50053823" side_tool="true" weight="0.24920128" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5129032" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49853587" weight="0.2861073" />
       <window_info id="Favorites" order="2" sideWeight="0.5021521" side_tool="true" weight="0.3109375" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39489672" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978479" visible="true" weight="0.22108346" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32750398" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49853587" weight="0.27217126" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" visible="true" weight="0.25826773" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978479" visible="true" weight="0.22108346" />
       <window_info id="Structure" order="1" sideWeight="0.50053823" side_tool="true" weight="0.24920128" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290938" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" visible="true" weight="0.25826773" />
+      <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840257" weight="0.33543307" />
-      <window_info anchor="right" id="R Packages" order="5" />
-      <window_info anchor="right" id="R Graphics" order="4" />
-      <window_info anchor="right" x="0" y="0" width="430" height="827" id="Documentation" order="7" side_tool="true" weight="0.25079873" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32750398" />
+      <window_info anchor="right" id="R Packages" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.51338583" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5014641" side_tool="true" weight="0.32750398" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5021521" side_tool="true" weight="0.3109375" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32598424" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49853587" weight="0.27217126" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49840257" weight="0.41259843" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" weight="0.26021504" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840257" visible="true" weight="0.5071542" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994618" visible="true" weight="0.27086383" />
       <window_info id="Structure" order="1" sideWeight="0.50053823" side_tool="true" weight="0.24920128" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -497,17 +495,17 @@
       <window_info anchor="right" id="R Graphics" order="3" />
       <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32750398" />
       <window_info anchor="right" id="R Packages" order="4" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49840257" weight="0.3672496" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" x="0" y="0" width="430" height="827" id="Documentation" order="5" side_tool="true" visible="true" weight="0.25079873" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3985122" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49853587" weight="0.61424017" />
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5014641" side_tool="true" weight="0.32750398" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32750398" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946752" weight="0.26021504" />
       <window_info id="Favorites" order="2" sideWeight="0.5014663" side_tool="true" weight="0.24920128" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32750398" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49840257" weight="0.3672496" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
