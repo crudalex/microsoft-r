@@ -35,13 +35,3 @@ if __name__ == '__main__':
         from pprint import pprint
 
         pprint(s)
-
-if __name__ == '__main__':
-    # n = [3, 9, 20, None, None, 15, 7]
-
-    for i in [100000]:
-        s = Solution().consecutiveNumbersSum(i)
-
-        from pprint import pprint
-
-        pprint(s)
