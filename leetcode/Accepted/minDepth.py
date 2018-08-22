@@ -35,6 +35,26 @@ class Solution:
         :rtype: int
         """
 
+        if root is None:
+            return 0
+
+        if root.left is None and root.right is None:
+            return 1
+
+        if root.left is None:
+            return 1 + self.minDepth(root.right)
+
+        if root.right is None:
+            return 1 + self.minDepth(root.left)
+
+        if root.right is not None and root.left is not None:
+            l = self.minDepth(root.left)
+            r = self.minDepth(root.right)
+            if l > r:
+                return 1 + r
+            else:
+                return 1 + l
+
 if __name__ == '__main__':
     n = [3, 9, 20, None, None, 15, 7]
 
