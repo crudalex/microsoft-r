@@ -1,7 +1,0 @@
----
-- hosts: all
-
-  vars:
-    my_var: alextwlam
-
-  roles: hello
